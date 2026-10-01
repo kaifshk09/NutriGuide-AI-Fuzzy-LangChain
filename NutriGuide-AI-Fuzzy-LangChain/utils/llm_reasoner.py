@@ -8,6 +8,24 @@ returned so the application remains usable and deployable without an LLM key.
 """
 import os
 
+import streamlit as st
+from dotenv import load_dotenv
+from streamlit.errors import StreamlitSecretNotFoundError
+
+load_dotenv()
+
+
+def _get_setting(name, default=""):
+    value = os.getenv(name, "").strip()
+    if value:
+        return value
+
+    try:
+        return str(st.secrets.get(name, default)).strip()
+    except StreamlitSecretNotFoundError:
+        return default
+
+
 def build_prompt(profile, metrics, fuzzy, plan):
     foods = []
     for meal, item in plan.items():
@@ -42,7 +60,7 @@ Write a concise 4-6 sentence explanation of why the system selected these foods.
 """.strip()
 
 def generate_llm_explanation(profile, metrics, fuzzy, plan):
-    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    api_key = _get_setting("OPENAI_API_KEY")
     if not api_key:
         return (
             "LLM reasoning is optional in this deployment. The local fuzzy inference system "
@@ -56,7 +74,7 @@ def generate_llm_explanation(profile, metrics, fuzzy, plan):
         from langchain_openai import ChatOpenAI
         from langchain_core.prompts import ChatPromptTemplate
         prompt = build_prompt(profile, metrics, fuzzy, plan)
-        llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"), temperature=0.2, api_key=api_key)
+        llm = ChatOpenAI(model=_get_setting("OPENAI_MODEL", "gpt-4o-mini"), temperature=0.2, api_key=api_key)
         response = llm.invoke([("system", "You are a careful academic nutrition explanation assistant."), ("human", prompt)])
         return response.content
     except Exception as exc:

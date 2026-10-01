@@ -150,39 +150,53 @@ The application also reads normal environment variables, which is suitable for S
 
 ## Installation
 
+Open PowerShell in the project folder (`NutriGuide-AI-Fuzzy-LangChain` if you cloned the parent repository), then run:
+
 ```bash
 python -m venv .venv
 ```
 
-Windows:
+Activate the environment in PowerShell:
 
 ```bash
-.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 ```
 
-Install:
+If PowerShell blocks activation, use the environment's Python directly instead:
 
 ```bash
-pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+When activation succeeds, install with:
+
+```bash
+python -m pip install -r requirements.txt
 ```
 
 ## Run
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 No LLM key is required to run the core application.
 
 ## Streamlit Community Cloud
 
-1. Push the project to GitHub.
-2. Create a Streamlit Community Cloud app.
-3. Select the repository.
-4. Set the main file to `app.py`.
-5. Deploy.
+1. Push this project to a GitHub repository. If you cloned the parent repository, keep the `NutriGuide-AI-Fuzzy-LangChain` folder and its `data/`, `utils/`, and `.streamlit/` directories together.
+2. In [Streamlit Community Cloud](https://share.streamlit.io/), create an app and select that repository and branch.
+3. Set **Main file path** to `NutriGuide-AI-Fuzzy-LangChain/app.py` when deploying from the parent repository. If this project folder is the repository root, use `app.py`.
+4. Deploy. The dependency manifest is `NutriGuide-AI-Fuzzy-LangChain/requirements.txt` (or `requirements.txt` when the project folder is the repository root).
 
-For optional LLM reasoning, add `OPENAI_API_KEY` and `OPENAI_MODEL` in Streamlit Secrets.
+The LLM is optional; the application works without a key. To enable it, open the app's **Settings → Secrets** and add:
+
+```toml
+OPENAI_API_KEY = "your-api-key"
+OPENAI_MODEL = "gpt-4o-mini"
+```
+
+For local development, copy `.env.example` to `.env` and set the same values there. Never commit `.env` or `.streamlit/secrets.toml`; they are excluded by the repository `.gitignore`.
 
 ## Project Structure
 
