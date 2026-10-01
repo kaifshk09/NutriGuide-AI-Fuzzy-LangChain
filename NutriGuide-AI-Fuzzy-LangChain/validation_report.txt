@@ -1,0 +1,15 @@
+{
+  "syntax": {
+    "calculations.py": "OK",
+    "llm_reasoner.py": "OK",
+    "fuzzy_engine.py": "OK",
+    "__init__.py": "OK",
+    "data_loader.py": "OK",
+    "recommender.py": "OK",
+    "app.py": "OK"
+  },
+  "returncode": 0,
+  "stdout": "ROWS 57\nMEALS ['Breakfast', 'Mid-morning Snack', 'Lunch', 'Evening Snack', 'Dinner']\nFUZZY {'weight_loss_need': 50.0, 'protein_need': 50.0, 'energy_need': 50.0, 'activity_intensity': 65, 'memberships': {'bmi': {'low': 0.0, 'normal': 0.0, 'high': 1.0}, 'activity': {'low': 0.0, 'medium': 0.5, 'high': 0.0}, 'calorie_delta': {'deficit': 0.0, 'balanced': 0.0, 'surplus': 1.0}}}\nFUZZY_TEST_OK\n",
+  "stderr": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 720, in _warm_feature_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 704, in _warm_collaboration_flows\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py\", line 32317, in hydrate_crdt_from_proto\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py\", line 749, in __call__\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\n",
+  "food_rows": 57
+}

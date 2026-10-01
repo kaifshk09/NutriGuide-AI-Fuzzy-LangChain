@@ -1,0 +1,58 @@
+Food Name,Category,Calories,Protein,Carbohydrates,Fat,Fiber,Vegetarian,Vegan,Eggetarian,Non-Veg,Cuisine,Budget,Breakfast,Lunch,Dinner,Snack
+Oats,Breakfast,150.0,5.0,27.0,3.0,4.0,Yes,Yes,Yes,Yes,Mixed,Low,Yes,No,No,No
+Poha,Breakfast,180.0,4.0,32.0,5.0,3.0,Yes,Yes,Yes,Yes,Indian,Low,Yes,No,No,No
+Upma,Breakfast,190.0,5.0,30.0,6.0,4.0,Yes,Yes,Yes,Yes,South Indian,Low,Yes,No,No,No
+Idli,Breakfast,120.0,4.0,24.0,1.0,2.0,Yes,Yes,Yes,Yes,South Indian,Low,Yes,No,No,No
+Dosa,Breakfast,210.0,5.0,30.0,7.0,2.0,Yes,Yes,Yes,Yes,South Indian,Low,Yes,No,No,No
+Eggs,Breakfast,155.0,13.0,1.0,11.0,0.0,No,No,Yes,No,Mixed,Low,Yes,No,No,No
+Vegetable Sandwich,Breakfast,240.0,8.0,32.0,8.0,5.0,Yes,No,Yes,Yes,Mixed,Low,Yes,No,No,No
+Greek Yogurt,Breakfast,120.0,10.0,7.0,4.0,0.0,Yes,No,Yes,Yes,Mixed,Medium,Yes,No,No,Yes
+Sprouts,Breakfast,120.0,8.0,18.0,1.0,6.0,Yes,Yes,Yes,Yes,Indian,Low,Yes,No,No,Yes
+Besan Chilla,Breakfast,220.0,11.0,27.0,7.0,5.0,Yes,Yes,Yes,Yes,North Indian,Low,Yes,No,No,No
+Vegetable Paratha,Breakfast,260.0,7.0,38.0,9.0,5.0,Yes,No,Yes,Yes,North Indian,Low,Yes,No,No,No
+Moong Dal Chilla,Breakfast,180.0,12.0,25.0,4.0,5.0,Yes,Yes,Yes,Yes,North Indian,Low,Yes,No,No,No
+Paneer Bhurji,Main,280.0,18.0,9.0,20.0,2.0,Yes,No,Yes,Yes,North Indian,Medium,No,Yes,Yes,No
+Dal,Main,190.0,11.0,28.0,4.0,7.0,Yes,Yes,Yes,Yes,Indian,Low,No,Yes,Yes,No
+Rice,Grain,205.0,4.0,45.0,0.0,1.0,Yes,Yes,Yes,Yes,Indian,Low,No,Yes,Yes,No
+Brown Rice,Grain,215.0,5.0,45.0,2.0,4.0,Yes,Yes,Yes,Yes,Mixed,Medium,No,Yes,Yes,No
+Roti,Grain,120.0,4.0,22.0,2.0,3.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Rajma,Main,210.0,13.0,37.0,1.0,9.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Chole,Main,240.0,12.0,38.0,6.0,9.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Paneer,Main,265.0,18.0,6.0,20.0,0.0,Yes,No,Yes,Yes,North Indian,Medium,No,Yes,Yes,No
+Chicken Breast,Main,165.0,31.0,0.0,4.0,0.0,No,No,No,Yes,Mixed,Medium,No,Yes,Yes,No
+Grilled Fish,Main,180.0,28.0,0.0,7.0,0.0,No,No,No,Yes,Mixed,Medium,No,Yes,Yes,No
+Vegetable Khichdi,Main,220.0,8.0,36.0,5.0,6.0,Yes,Yes,Yes,Yes,Indian,Low,No,Yes,Yes,No
+Mixed Vegetables,Vegetable,110.0,4.0,18.0,3.0,6.0,Yes,Yes,Yes,Yes,Mixed,Low,No,Yes,Yes,No
+Vegetable Soup,Soup,90.0,4.0,14.0,2.0,4.0,Yes,Yes,Yes,Yes,Mixed,Low,No,Yes,Yes,Yes
+Tofu,Main,145.0,16.0,4.0,9.0,2.0,Yes,Yes,Yes,Yes,Mixed,Medium,No,Yes,Yes,No
+Soya Chunks,Main,170.0,25.0,12.0,1.0,8.0,Yes,Yes,Yes,Yes,Indian,Low,No,Yes,Yes,Yes
+Millet Khichdi,Main,230.0,8.0,40.0,4.0,7.0,Yes,Yes,Yes,Yes,Indian,Medium,No,Yes,Yes,No
+Bajra Roti,Grain,130.0,4.0,24.0,2.0,4.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Jowar Roti,Grain,125.0,4.0,23.0,2.0,3.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Curd,Dairy,100.0,5.0,7.0,5.0,0.0,Yes,No,Yes,Yes,Indian,Low,No,Yes,Yes,Yes
+Milk,Dairy,120.0,6.0,9.0,5.0,0.0,Yes,No,Yes,Yes,Mixed,Low,Yes,No,No,Yes
+Soy Milk,Dairy Alternative,80.0,7.0,4.0,4.0,1.0,Yes,Yes,Yes,Yes,Mixed,Medium,Yes,No,No,Yes
+Banana,Fruit,105.0,1.0,27.0,0.0,3.0,Yes,Yes,Yes,Yes,Mixed,Low,Yes,No,No,Yes
+Apple,Fruit,95.0,0.0,25.0,0.0,4.0,Yes,Yes,Yes,Yes,Mixed,Medium,Yes,No,No,Yes
+Orange,Fruit,62.0,1.0,15.0,0.0,3.0,Yes,Yes,Yes,Yes,Mixed,Low,Yes,No,No,Yes
+Guava,Fruit,68.0,3.0,14.0,1.0,6.0,Yes,Yes,Yes,Yes,Indian,Low,Yes,No,No,Yes
+Papaya,Fruit,59.0,1.0,15.0,0.0,3.0,Yes,Yes,Yes,Yes,Indian,Low,Yes,No,No,Yes
+Roasted Chana,Snack,164.0,9.0,27.0,3.0,7.0,Yes,Yes,Yes,Yes,Indian,Low,No,No,No,Yes
+Peanuts,Snack,170.0,8.0,6.0,14.0,3.0,Yes,Yes,Yes,Yes,Indian,Low,No,No,No,Yes
+Almonds,Snack,164.0,6.0,6.0,14.0,4.0,Yes,Yes,Yes,Yes,Mixed,Premium,No,No,No,Yes
+Makhana,Snack,105.0,3.0,16.0,3.0,2.0,Yes,Yes,Yes,Yes,Indian,Medium,No,No,No,Yes
+Yogurt,Dairy,100.0,5.0,7.0,5.0,0.0,Yes,No,Yes,Yes,Mixed,Low,No,No,No,Yes
+Hummus,Snack,166.0,8.0,14.0,10.0,6.0,Yes,Yes,Yes,Yes,Mixed,Medium,No,No,No,Yes
+Fruit Salad,Fruit,120.0,2.0,28.0,1.0,5.0,Yes,Yes,Yes,Yes,Mixed,Medium,No,No,No,Yes
+Quinoa,Grain,120.0,4.0,21.0,2.0,3.0,Yes,Yes,Yes,Yes,Mixed,Premium,No,Yes,Yes,No
+Sweet Potato,Vegetable,130.0,2.0,30.0,0.0,4.0,Yes,Yes,Yes,Yes,Mixed,Low,No,Yes,Yes,Yes
+Corn,Vegetable,120.0,4.0,27.0,2.0,3.0,Yes,Yes,Yes,Yes,Mixed,Low,No,Yes,Yes,Yes
+Boiled Eggs,Breakfast,155.0,13.0,1.0,11.0,0.0,No,No,Yes,No,Mixed,Low,No,Yes,Yes,Yes
+Chicken Tikka,Main,190.0,27.0,5.0,7.0,1.0,No,No,No,Yes,North Indian,Medium,No,Yes,Yes,No
+Fish Curry,Main,220.0,25.0,8.0,10.0,1.0,No,No,No,Yes,Indian,Medium,No,Yes,Yes,No
+Palak Paneer,Main,260.0,16.0,10.0,19.0,4.0,Yes,No,Yes,Yes,North Indian,Medium,No,Yes,Yes,No
+Sambar,Main,150.0,7.0,22.0,4.0,6.0,Yes,Yes,Yes,Yes,South Indian,Low,No,Yes,Yes,No
+Rasam,Soup,80.0,3.0,12.0,2.0,2.0,Yes,Yes,Yes,Yes,South Indian,Low,No,Yes,Yes,Yes
+Vegetable Pulao,Main,220.0,5.0,39.0,6.0,4.0,Yes,Yes,Yes,Yes,Indian,Low,No,Yes,Yes,No
+Dal Tadka,Main,210.0,10.0,27.0,7.0,6.0,Yes,Yes,Yes,Yes,North Indian,Low,No,Yes,Yes,No
+Lassi,Dairy,150.0,6.0,20.0,5.0,0.0,Yes,No,Yes,Yes,North Indian,Low,Yes,No,No,Yes
