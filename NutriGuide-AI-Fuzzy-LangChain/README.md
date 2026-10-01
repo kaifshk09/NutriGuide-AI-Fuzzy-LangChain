@@ -146,7 +146,7 @@ OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-The application also reads normal environment variables, which is suitable for Streamlit Community Cloud Secrets.
+Locally, `python-dotenv` loads `.env`. In Streamlit Community Cloud, the app reads values from **Settings → Secrets**; normal environment variables are also supported.
 
 ## Installation
 
